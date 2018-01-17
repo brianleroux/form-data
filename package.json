@@ -2,7 +2,7 @@
   "author": "Brian LeRoux (forked from Felix Geisendörfer <felix@debuggable.com>)",
   "name": "@brianleroux/form-data",
   "description": "A library to create readable \"multipart/form-data\" streams. Can be used to submit forms and file uploads to other web applications.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/brianleroux/tiny-form-data.git"
@@ -15,8 +15,7 @@
     "posttest": "istanbul report lcov text",
     "prepublishOnly": ""
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "asynckit": "^0.4.0",
     "combined-stream": "^1.0.5",
