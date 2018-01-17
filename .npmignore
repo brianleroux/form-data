@@ -7,3 +7,5 @@ sftp-config.json
 coverage/
 node_modules/
 test/
+lib/
+bundle.js

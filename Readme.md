@@ -1,23 +1,15 @@
-# Form-Data [![NPM Module](https://img.shields.io/npm/v/form-data.svg)](https://www.npmjs.com/package/form-data) [![Join the chat at https://gitter.im/form-data/form-data](http://form-data.github.io/images/gitterbadge.svg)](https://gitter.im/form-data/form-data)
+# tiny-form-data
 
-A library to create readable ```"multipart/form-data"``` streams. Can be used to submit forms and file uploads to other web applications.
+A library to create readable ```"multipart/form-data"``` streams forked and trimmed from `form-data`. Can be used to submit forms and file uploads to other web applications.
 
 The API of this library is inspired by the [XMLHttpRequest-2 FormData Interface][xhr2-fd].
 
 [xhr2-fd]: http://dev.w3.org/2006/webapi/XMLHttpRequest-2/Overview.html#the-formdata-interface
 
-[![Linux Build](https://img.shields.io/travis/form-data/form-data/master.svg?label=linux:0.12-8.x)](https://travis-ci.org/form-data/form-data)
-[![MacOS Build](https://img.shields.io/travis/form-data/form-data/master.svg?label=macos:0.12-8.x)](https://travis-ci.org/form-data/form-data)
-[![Windows Build](https://img.shields.io/appveyor/ci/alexindigo/form-data/master.svg?label=windows:0.12-8.x)](https://ci.appveyor.com/project/alexindigo/form-data)
-
-[![Coverage Status](https://img.shields.io/coveralls/form-data/form-data/master.svg?label=code+coverage)](https://coveralls.io/github/form-data/form-data?branch=master)
-[![Dependency Status](https://img.shields.io/david/form-data/form-data.svg)](https://david-dm.org/form-data/form-data)
-[![bitHound Overall Score](https://www.bithound.io/github/form-data/form-data/badges/score.svg)](https://www.bithound.io/github/form-data/form-data)
-
 ## Install
 
 ```
-npm install --save form-data
+npm i --save tiny-form-data
 ```
 
 ## Usage
