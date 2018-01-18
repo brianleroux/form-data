@@ -2,7 +2,7 @@
   "author": "Brian LeRoux (forked from Felix Geisendörfer <felix@debuggable.com>)",
   "name": "@brianleroux/form-data",
   "description": "A library to create readable \"multipart/form-data\" streams. Can be used to submit forms and file uploads to other web applications.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/brianleroux/tiny-form-data.git"
