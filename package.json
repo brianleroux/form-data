@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git://github.com/brianleroux/tiny-form-data.git"
   },
-  "main": "./bundle.min.js",
+  "main": "./lib/form_data.js",
   "scripts": {
     "bundle": "browserify lib/form_data.js --node --standalone tiny-form-data > bundle.js && uglifyjs bundle.js -o bundle.min.js",
     "pretest": "rimraf coverage test/tmp",
@@ -15,11 +15,12 @@
     "posttest": "istanbul report lcov text",
     "prepublishOnly": ""
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "asynckit": "^0.4.0",
     "combined-stream": "^1.0.5",
-    "tiny-mime-lookup": "^1.0.0",
+    "tiny-mime-lookup": "^1.0.0"
+  },
+  "devDependencies": {
     "browserify": "^13.3.0",
     "browserify-istanbul": "^2.0.0",
     "coveralls": "^2.11.14",
